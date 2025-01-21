@@ -1,10 +1,11 @@
 import React from 'react';
+import Cards from '../Cards/Cards';
 import './HomeSection.css';
 
 export default function HomeSection() {
   return (
     <>
-    <div className="row my-5 border rounded-3 my-5 mx-md-0 mx-1">
+    <div className="row my-5 border rounded-3 my-5 mx-md-3 mx-1">
 
       <div className="col  text-center border border-top-0 border-bottom-0 border-start-0 my-5">
         <a className='card-title fs-4 text-decoration-none'>Houses</a>
@@ -61,6 +62,7 @@ export default function HomeSection() {
 
       
     </div>
+    <Cards />
   </>
   )
 }

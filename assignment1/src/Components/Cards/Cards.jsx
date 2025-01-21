@@ -7,7 +7,7 @@ import './Cards.css'
 export default function Cards() {
   return (
     <>
-      <div className=" row gy-4">
+      <div className=" row gy-4 mx-3">
 
 {/* <!-- Buy card --> */}
 <div className="   col-md-4  overflow-hidden item ">
